@@ -6,12 +6,12 @@ int main()
   
   if((ch >= 'a'&& ch<='z')||(ch >='A' && ch >='Z')){
     if(ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E' || ch == 'I' || ch == 'i' || ch == 'o' || ch == 'O' || ch == 'U' || ch == 'u')
-      printf("%c is a vowel\n",ch);
+      printf("Vowel");
      else
-      printf("%c is a consonant",ch);
+      printf("Consonant");
    }
    else
-    printf("%c is neither a vowel nor a consonant",ch);
+    printf("Invalid");
     
     return 0;
     
